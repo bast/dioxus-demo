@@ -2,6 +2,7 @@
 
 This demo shows how to:
 - use a CSS framework of your choice
+  (in this example using [UIkit](https://getuikit.com/))
 - deploy to GitHub Pages
 - do some async work with `use_future`
 
