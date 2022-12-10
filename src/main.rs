@@ -20,11 +20,11 @@ fn app(cx: Scope) -> Element {
 
     cx.render(rsx! {
         h1 { "counter: {count}" }
-        button { class: "uk-button uk-button-primary",
+        button { class: "uk-button uk-button-primary uk-margin-small-right",
                  onclick: move |_| count += 1, "more" }
-        button { class: "uk-button uk-button-secondary",
+        button { class: "uk-button uk-button-secondary uk-margin-small-right",
                  onclick: move |_| count -= 1, "less" }
-        button { class: "uk-button uk-button-danger",
+        button { class: "uk-button uk-button-danger uk-margin-small-right",
                  onclick: move |_| count.set(0), "reset" }
     })
 }
